@@ -1,8 +1,8 @@
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
-import logo from '../../assets/pngtree-shop-icon-png-image_921774.jpg'
-import useStyles from './Styles-Navbar'
+import logo from '../../assets/pngtree-shop-icon-png-image_921774.jpg';
+import useStyles from './Styles-Navbar';
 
 const Navbar = () => {
     const classes= useStyles()
