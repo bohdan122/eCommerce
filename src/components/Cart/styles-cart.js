@@ -4,6 +4,7 @@ export default makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   title: {
     marginTop: '8%',
+    marginBottom: '20px',
   },
   emptyButton: {
     minWidth: '150px',
@@ -15,7 +16,7 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
-    minWidth: '150px',
+   minWidth: '150px',
   },
   link: {
     textDecoration: 'none',
