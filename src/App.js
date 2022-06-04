@@ -38,7 +38,7 @@ const App = () => {
      const handleEmptyCart = async () => {
     const { cart } = await commerce.cart.empty();
 
-    setCart(cart);
+    SetCart(cart);
   };
 
     useEffect(() =>{
